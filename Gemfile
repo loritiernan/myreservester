@@ -31,7 +31,7 @@ gem 'carrierwave'
 
 gem 'mini_magick'
 
-gem 'fog', "~> 1.3.1"
+gem 'fog', "~> 1.12.1"
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby

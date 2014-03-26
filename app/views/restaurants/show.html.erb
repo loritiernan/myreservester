@@ -1,0 +1,11 @@
+<h1><%= "#{@restaurant.name}" %></h1>
+<%= image_tag @restaurant.image_url(:masthead) %>
+
+
+
+
+<%= link_to 'Edit', edit_restaurant_path %>
+<%= link_to 'Destroy', restaurant_path, method: :delete, data: { confirm: 'Are you sure?'} %>
+
+
+

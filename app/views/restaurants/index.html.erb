@@ -1,0 +1,14 @@
+<h1>Reservester</h1>
+<% @restaurants.each do |x| %>
+<p><%= link_to "#{x.name}", x %></p>
+<%= image_tag "#{x.image_url(:thumb)}" %>
+	<% end %>
+
+<br>
+<hr>
+
+<%= link_to("New Restaurant", new_restaurant_path) %> 
+<%= link_to "Back", root_path %>
+
+<p></p>
+
